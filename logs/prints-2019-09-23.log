@@ -1,0 +1,7 @@
+11:45:39.196 [main] INFO  StepDefinitions.LoginPageTests - 
+11:45:39.211 [main] FATAL StepDefinitions.LoginPageTests - initializing driver
+11:48:55.153 [main] FATAL StepDefinitions.LoginPageTests - initializing driver
+11:49:06.684 [main] INFO  StepDefinitions.LoginPageTests - Sign in or Register | eBay
+11:49:08.612 [main] FATAL StepDefinitions.LoginPageTests - initializing driver
+11:49:17.517 [main] INFO  StepDefinitions.LoginPageTests - Sign in or Register | eBay
+11:49:19.414 [main] FATAL StepDefinitions.LoginPageTests - initializing driver

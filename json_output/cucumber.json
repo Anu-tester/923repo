@@ -1,0 +1,294 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Check Login Functionality",
+        "description": "",
+        "id": "e-bay-login-feature;check-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10516457600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginPageTests.user_is_already_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10783100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Check Customer Login Page title valid",
+            "match": {
+              "location": "LoginPageTests.check_Customer_Login_Page_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 445420500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Check Customer Login with valid Data\"abc\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 37
+                },
+                {
+                  "val": "abc123",
+                  "offset": 47
+                }
+              ],
+              "location": "LoginPageTests.check_Customer_Login_with_valid_Data_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1411298000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Check Customer Login with invalid Data\"111\" and \"222\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "111",
+                  "offset": 39
+                },
+                {
+                  "val": "222",
+                  "offset": 49
+                }
+              ],
+              "location": "LoginPageTests.check_Customer_Login_with_invalid_Data(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Check Login Functionality",
+        "description": "",
+        "id": "e-bay-login-feature;check-login-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8682642300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginPageTests.user_is_already_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5547200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Check Customer Login Page title valid",
+            "match": {
+              "location": "LoginPageTests.check_Customer_Login_Page_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 461236300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Check Customer Login with valid Data\"def\" and \"def123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "def",
+                  "offset": 37
+                },
+                {
+                  "val": "def123",
+                  "offset": 47
+                }
+              ],
+              "location": "LoginPageTests.check_Customer_Login_with_valid_Data_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1489648600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Check Customer Login with invalid Data\"333\" and \"888\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "333",
+                  "offset": 39
+                },
+                {
+                  "val": "888",
+                  "offset": 49
+                }
+              ],
+              "location": "LoginPageTests.check_Customer_Login_with_invalid_Data(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Check Login with Data Tables",
+        "description": "",
+        "id": "e-bay-login-feature;check-login-with-data-tables",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7775318400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is already on data table Login Page",
+            "match": {
+              "location": "LoginPageTests.user_is_already_on_data_table_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1654789400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Check Customer Login with valid Data",
+            "match": {
+              "location": "LoginPageTests.check_Customer_Login_with_valid_Data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "passw"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "Tom",
+                  "Cruise"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "Sean",
+                  "Harry123"
+                ],
+                "line": 23
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1708632000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Check Customer Login with invalid Data",
+            "match": {
+              "location": "LoginPageTests.check_Customer_Login_with_invalid_Data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name1",
+                  "passw1"
+                ],
+                "line": 25
+              },
+              {
+                "cells": [
+                  "a111",
+                  "a222"
+                ],
+                "line": 26
+              },
+              {
+                "cells": [
+                  "a555",
+                  "a666"
+                ],
+                "line": 27
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "E-bay Login Feature",
+    "description": "",
+    "id": "e-bay-login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

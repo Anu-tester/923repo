@@ -1,0 +1,39 @@
+2019-05-13 09:51:00 INFO  Log4jsample:8 -  this is log4j error message
+2019-05-13 09:53:12 INFO  Log4jsample:8 -  this is log4j error message
+2019-05-13 09:57:28 INFO  Log4jsample:8 -  this is log4j error message
+2019-05-13 10:01:07 INFO  LoginPageTests:37 - Sign in or Register | eBay
+2019-05-13 10:01:15 INFO  LoginPageTests:37 - Sign in or Register | eBay
+2019-05-13 10:01:24 INFO  LoginPageTests:37 - Sign in or Register | eBay
+2019-05-13 10:06:06 DEBUG WindowTestCases:39 - New Window
+2019-05-13 10:06:06 DEBUG WindowTestCases:42 - The Internet
+2019-05-13 10:06:17 INFO  LoginPageTests:37 - Sign in or Register | eBay
+2019-05-13 10:06:25 INFO  LoginPageTests:37 - Sign in or Register | eBay
+2019-05-13 10:06:35 INFO  LoginPageTests:37 - Sign in or Register | eBay
+2019-05-13 10:42:44 DEBUG WindowTestCases:39 - New Window
+2019-05-13 10:42:44 DEBUG WindowTestCases:42 - The Internet
+2019-05-13 10:42:55 INFO  LoginPageTests:37 - Sign in or Register | eBay
+2019-05-13 10:43:04 INFO  LoginPageTests:37 - Sign in or Register | eBay
+2019-05-13 10:43:13 INFO  LoginPageTests:37 - Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay
+2019-05-13 11:53:24 DEBUG Log4jsample:9 - this is debug message
+2019-05-13 11:53:24 INFO  Log4jsample:10 - this is info message
+2019-05-13 11:53:24 WARN  Log4jsample:11 -  this is warn message
+2019-05-13 11:53:24 ERROR Log4jsample:12 - this iserror message
+2019-05-13 11:53:24 FATAL Log4jsample:13 - this is fatal message
+2019-05-13 11:54:18 TRACE Log4jsample:8 - this is trace message
+2019-05-13 11:54:32 TRACE Log4jsample:8 - this is trace message
+2019-05-13 11:54:32 DEBUG Log4jsample:9 - this is debug message
+2019-05-13 11:54:32 INFO  Log4jsample:10 - this is info message
+2019-05-13 11:54:32 WARN  Log4jsample:11 -  this is warn message
+2019-05-13 11:54:32 ERROR Log4jsample:12 - this iserror message
+2019-05-13 11:54:32 FATAL Log4jsample:13 - this is fatal message
+2019-05-13 11:55:15 TRACE Log4jsample:8 - this is trace message
+2019-05-13 11:55:15 DEBUG Log4jsample:9 - this is debug message
+2019-05-13 11:55:15 INFO  Log4jsample:10 - this is info message
+2019-05-13 11:55:15 WARN  Log4jsample:11 -  this is warn message
+2019-05-13 11:55:15 ERROR Log4jsample:12 - this is error message
+2019-05-13 11:55:15 FATAL Log4jsample:13 - this is fatal message
+2019-05-13 11:55:39 ERROR Log4jsample:12 - this is error message
+2019-05-13 11:55:39 FATAL Log4jsample:13 - this is fatal message
+2019-09-05 07:27:19 INFO  LoginPageTests:37 - Sign in or Register | eBay
+2019-09-05 07:27:29 INFO  LoginPageTests:37 - Sign in or Register | eBay
+2019-09-05 07:27:37 INFO  LoginPageTests:37 - Sign in or Register | eBay

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="34.161773">
+<testcase classname="E-bay Login Feature" name="Check Login Functionality" time="12.383959">
+<system-out><![CDATA[Given user is already on Login Page.........................................passed
+When Check Customer Login Page title valid..................................passed
+Then Check Customer Login with valid Data"abc" and "abc123".................passed
+Then Check Customer Login with invalid Data"111" and "222"..................passed
+]]></system-out>
+</testcase>
+<testcase classname="E-bay Login Feature" name="Check Login Functionality 2" time="10.639074">
+<system-out><![CDATA[Given user is already on Login Page.........................................passed
+When Check Customer Login Page title valid..................................passed
+Then Check Customer Login with valid Data"def" and "def123".................passed
+Then Check Customer Login with invalid Data"333" and "888"..................passed
+]]></system-out>
+</testcase>
+<testcase classname="E-bay Login Feature" name="Check Login with Data Tables" time="11.13874">
+<system-out><![CDATA[Given user is already on data table Login Page..............................passed
+Then Check Customer Login with valid Data...................................passed
+Then Check Customer Login with invalid Data.................................passed
+]]></system-out>
+</testcase>
+</testsuite>
